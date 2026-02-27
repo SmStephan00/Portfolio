@@ -24,9 +24,12 @@ interface ThemeColProps {
 }
 
 const ThemeCol = ({ elem, setToggleTheme }: ThemeColProps) => {
- 
   
-  const elementTheme = elem[0].toggle
+  if (!elem?.elem?.[0]?.toggle) {
+    return <div>Загрузка...</div>;
+  }
+  
+  const elementTheme = elem.elem[0].toggle; 
   
   return ( 
     <div className="theme__col">
