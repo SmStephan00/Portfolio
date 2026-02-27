@@ -1,0 +1,115 @@
+.contant__col{
+    width: 63%;
+
+    h1{
+        font-family: title;
+        letter-spacing: 0.3vw;
+        font-size: 3vw;
+        font-weight: 700;
+    }
+
+    h2,h3{
+        letter-spacing: 0.3vw;
+        font-size: 2.6vw;
+        font-weight: 700;
+    }
+
+    p{
+        font-size: 1.2vw;
+    }
+}
+
+.block__example{
+    background-color: #1d1d1b;
+    padding: 1vw;
+    margin-bottom: 2vw;
+    border-radius: 0.3vw;
+    h2,h3,p{
+        color: #cdc6be;
+    }
+}
+
+.preview__code{
+    background-color: #cdc6bed8;
+    border: 0.3vw solid #1d1d1b;
+    border-radius: 0.3vw;
+    padding: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    height: 30vw;
+    overflow-y: scroll;
+    span{
+        font-size: 1vw;
+        font-family: text;
+        font-weight: 700;
+        letter-spacing: 0.2vw;
+    }
+}
+
+.filed__row__index{
+    display: flex;
+}
+
+.str{
+    display: flex;
+    column-gap: 2vw;
+}
+
+.col__code{
+    padding-left: 0.3vw;
+    border-left :0.3vw solid #1d1d1b;
+}
+
+::-webkit-scrollbar{
+    
+    width: 0.3vw;
+    height: 0.3vw;
+}
+
+::-webkit-scrollbar-track {
+    background: #cdc6be;
+    border-radius: 0.3vw;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1d1d1b;
+    border-radius: 0.3vw;
+}
+
+.block__example__filed{
+    border: 0.3vw solid #cdc6be;
+    border-radius: 0.3vw;
+    margin: 1vw 0;
+    padding: 2vw 1vw;
+    
+}
+.box__example{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1vw;
+}
+
+
+
+.button__exemple,.input__exemple{
+    background-color: #cdc6be;
+    border: 0.3vw solid #cdc6be;
+    border-radius: 0.3vw;
+    padding: 1vw;
+    min-width: 20%;
+    transition: 0.7s;
+    p{
+        font-size: 1.6vw;
+        color: #1d1d1b;
+    }
+
+    &:hover{
+        transition: 0.7s;
+        background-color: #1d1d1b;
+        color: #cdc6be;
+        p{
+            color: #cdc6be;
+        }
+    }
+}
